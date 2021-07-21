@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RossmannLabs
 // @namespace    Nik1471
-// @version      0.5
+// @version      0.6
 // @description  Streamlabs Alerts userscript for Louis Rossmann
 // @author       Nik1471
 // @icon         https://streamlabs.com/images/favicons/favicon.svg
@@ -20,7 +20,7 @@
 /* global jQuery, $, _, timeago, MicroModal */
 
 // New message sound
-var alertUrl = 'https://cdn.twitchalerts.com/twitch-bits/sounds/bits.ogg';
+var alertUrl = 'https://raw.githubusercontent.com/Nik1471/RossmannLabs/master/whoosh-01.wav';
 // Currency rates for US dollar
 var ratesUrl = 'https://www.floatrates.com/daily/usd.json';
 // Main button (logo) image
